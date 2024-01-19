@@ -13,9 +13,9 @@ function SearchPage({ params: { term } }: Props) {
   // API call to get the searched movies
   // API call to get the popular movies
   return (
-    <div>
+    <main>
       <div>Search Page : {termToUse}</div>
-    </div>
+    </main>
   );
 }
 
