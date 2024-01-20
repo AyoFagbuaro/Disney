@@ -1,4 +1,4 @@
-import { Movie } from "@/typings";
+import { Movie } from "../../typings";
 import MovieCard from "./MovieCard";
 import { cn } from "@/lib/utils";
 
