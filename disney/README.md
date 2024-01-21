@@ -20,7 +20,7 @@ This is my attempt to rebuild the disney streaming website by making use of IMDB
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-This project is built using next.js 14 (server components), tailwind CSS, ShadcCN and Azure open AI.
+This project is built using next.js 14 (server components), tailwind CSS, ShadcCN and Azure open AI for text completion.
 
 ## Deploy on Vercel
 

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import MoviesCarousel from "@/components/MoviesCarousel";
 
 export const metadata: Metadata = {
   title: "My disney app",
@@ -23,7 +22,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* <Header /> */}
+          <Header />
 
           {children}
         </ThemeProvider>
